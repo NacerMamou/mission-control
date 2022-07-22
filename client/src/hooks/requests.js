@@ -1,4 +1,4 @@
-const API_URL = "https://www.mission-control.nmamou.com/v1";
+const API_URL = "https://www.missioncontrol.nmamou.com/v1";
 // const API_URL = "http://localhost:8008/v1";
 async function httpGetPlanets() {
   const response = await fetch(`${API_URL}/planets`);
