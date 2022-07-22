@@ -1,0 +1,15 @@
+1. install heroku with npm and git
+npm install -g heroku
+
+2. create a new application nedd its name: heroku-app-name
+
+3. Link the local repository to heroku using the heroku-app-name
+heroku git:remote -a heroku-app-name
+
+4. push the local repository to heroku-app
+git push heroku main
+
+5. Do not forget to login 
+heroku login
+
+
